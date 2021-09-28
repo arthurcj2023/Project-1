@@ -1,3 +1,7 @@
+:root {
+    --LineColor: #B50717;
+}
+
 /* Tag styles */
 body {
     padding: 0;
@@ -20,19 +24,39 @@ body {
     height: 100px;
     flex-direction: space-around;
     align-items: center;
-    background-color: orange;
+    background-color: #BFBFBF;
+    border-bottom: 2px solid var(--LineColor);
+
 }
 .flex-body {
     display: flex;
     flex-direction: column;
     width: 100vw;
-    background-color: green;
+    flex-basis: 100vw;
+    height: 100vh - 150px;
+    background-color: #ECECEC;
 }
 .flex-footer {
     display: flex;
     width: 100vw;
-    background-color: rebeccapurple;
+    height: 50px;
+    background-color: #BFBFBF;
+    border-top: 2px solid var(--LineColor);
     justify-content: center;
     align-items: center;
 }
 /* Id classes */
+.page-header {
+    padding-left: 5%; 
+    padding-right: 5%;
+}
+.paragraph {
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 20px;
+    overflow-y: auto;
+}
+.list {
+    padding-left: 10%;
+    padding-right: 10%;
+}

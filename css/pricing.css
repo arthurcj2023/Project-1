@@ -1,0 +1,9 @@
+.price-calculator-box {
+    display:flex;
+    flex-direction: column;
+    background-color: orange;
+    margin-left: 42%;
+    margin-right: 42%;
+    justify-content: center;
+    align-items: center;
+}
