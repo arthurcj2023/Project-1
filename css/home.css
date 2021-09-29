@@ -1,0 +1,8 @@
+.flex-body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: calc(100vh - 154px);
+    background: radial-gradient(#1F1F1F, #000000);
+    color: var(--TextColor);
+}

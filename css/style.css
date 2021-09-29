@@ -44,6 +44,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
+    height: 100%;
     background: radial-gradient(#1F1F1F, #000000);
     color: var(--TextColor);
 }

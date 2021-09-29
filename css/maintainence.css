@@ -1,0 +1,7 @@
+.maintainence-images {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+    flex: 1 1 1;
+}
