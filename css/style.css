@@ -1,49 +1,66 @@
+/* Variables */
 :root {
     --LineColor: #B50717;
+    --BoxColor: #141414;
+    --TextColor: #BFBFBF;
 }
-
-/* Tag styles */
+/* Body flex prep */
 body {
     padding: 0;
     margin: 0;
 }
-/* Flex alignment classes */
+/* Flex master */
 .flex-master {
     display: flex;
     flex-direction: column;
 }
+/* Flex header */
 .flex-header-button {
     display: flex;
-    margin: 5px;
+    margin: 10px;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    color: var(--TextColor);
+    background-color: var(--BoxColor);
+    border: 1px solid var(--LineColor);
     padding: 5px;
-    flex: 1 0 auto;
+    flex: 1 1 1;
 }
 .flex-header {
     display: flex;
-    width: 100vw;
+    width: 100%;
     height: 100px;
     flex-direction: space-around;
+    flex-wrap: wrap;
     align-items: center;
-    background-color: #BFBFBF;
+    justify-content: center;
+    background-color: var(--BoxColor);
     border-bottom: 2px solid var(--LineColor);
-
+    flex: 1 1 auto;
 }
+/* Flex body COMPLETE*/
 .flex-body {
     display: flex;
     flex-direction: column;
-    width: 100vw;
-    flex-basis: 100vw;
-    height: 100vh - 150px;
-    background-color: #ECECEC;
+    width: 100%;
+    background: radial-gradient(#1F1F1F, #000000);
+    color: var(--TextColor);
 }
+/* Flex footer COMPLETE*/
 .flex-footer {
     display: flex;
-    width: 100vw;
+    width: 100%;
     height: 50px;
-    background-color: #BFBFBF;
+    background-color: var(--BoxColor);
+    color: var(--TextColor);
     border-top: 2px solid var(--LineColor);
     justify-content: center;
     align-items: center;
+}
+
+.checklist {
+    margin-left: 5%;
 }
 /* Id classes */
 .page-header {
