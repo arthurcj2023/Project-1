@@ -61,12 +61,14 @@
 }
 
 .list-element {
-  font-size: 22px;
+    font-size: 22px;
     margin: 2px;
 }
 
 .car {
-  object-fit: contain;
+  align-self: center;
+  width: 500px;
+  height: 228px;
   border: 2px solid var(--LineColor);
   border-radius: 10px;
   margin-left: 10%;

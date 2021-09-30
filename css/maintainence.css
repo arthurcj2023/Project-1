@@ -1,13 +1,43 @@
 .maintainence-images {
-    display: flex;
     margin-left: 10%;
-    margin-right: 10%;   
-    flex: 1 1 1;
+    margin-right: 10%;
+    align-items: center; 
+    text-align: center;
 }
 
 .maintainence-image{
-    display: flex;
+    border: 2px solid var(--LineColor);
+    border-radius: 10px;
+    margin: 10px;
     max-width: 50%;
     max-height: 50%;
-    flex: 1 1 1;
+}
+
+.main-paragraph {
+    font-family: 'Teko', sans-serif;
+    border: 2px solid var(--LineColor);
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.sub-header {
+    display: flex;
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 40px;
+    margin-left: 20%;
+    margin-right: 20%;
+    align-self: center;
+}
+
+.maintainence-paragraph {
+    font-size: 20px;
+    font-family: 'Teko', sans-serif;
+    border: 2px solid var(--LineColor);
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
 }

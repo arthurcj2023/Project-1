@@ -25,8 +25,8 @@ form {
     font-size: 50px;
     flex-direction: column;
     background-color: var(--BoxColor);
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-bottom: 20px;
     justify-content: center;
     align-items: center;
@@ -40,8 +40,8 @@ form {
     font-size: 20px;
     border-radius: 10px;
     padding: 10px;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .number {
@@ -93,7 +93,7 @@ form {
         margin-left: 5%;
         margin-right: 5%;
     }
-    
+
     .main-paragraph {
         margin-left: 5%;
         margin-right: 5%;
