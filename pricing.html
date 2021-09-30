@@ -26,7 +26,8 @@
         </div>
         <div class="flex-body">
             <h1 class="page-header">Pricing guide</h1>
-            <p class="main-paragraph">This pricing calculator should be able to give you an accurate value of the vehicle
+            <p class="main-paragraph">This pricing calculator should be able to give you an accurate value of the
+                vehicle
                 you are looking to purchase. Taking factors from the inspection portion of the site, rate the condition
                 of each major category of the vehicle on a scale from 0-10. 0 is equivalent to scrap metal, and 10 is
                 equivalent to fresh off of the factory line. Once you plug in those values press the Calculate Price
@@ -35,19 +36,31 @@
                 is bound to be in the future.</p>
             <div class="price-calculator-box">
                 <form name="price-calculator">
-                    <p>Asking price
-                    <input class="number" type="number" min="0" max="1000000" value="0"
-                            name="AskingPrice">
-                    </p>
-                    <p>External condition <input class="number" type="number" min="0" max="10" value="0"
-                            name="ExternalCondition"></p>
-                    <p>Internal condition <input class="number" type="number" min="0" max="10" value="0"
-                            name="InternalCondition"></p>
-                    <p>Mechanical condition <input class="number" type="number" min="0" max="10" value="0"
-                            name="MechanicalCondition"></p>
-                    <input type="button" value="Calculate Price" onClick="calculatePrice(this.form, this.output)">
+                    <div class="form-row">
+                        Asking price:
+                        <input class="number" type="number" min="0" max="1000000" value="0" name="AskingPrice">
+                    </div>
+                    <div class="form-row">
+                        External condition: <input class="number" type="number" min="0" max="10" value="0"
+                            name="ExternalCondition">
+                    </div>
+                    <div class="form-row">
+                        Internal condition: <input class="number" type="number" min="0" max="10" value="0"
+                            name="InternalCondition">
+                    </div>
+                    <div class="form-row">
+                        Mechanical condition: <input class="number" type="number" min="0" max="10" value="0"
+                            name="MechanicalCondition">
+                    </div>
+                    <div class="form-submit-row">
+                        <input class="form-submit" type="button" value="Calculate Price"
+                            onClick="calculatePrice(this.form, this.output)">
+                    </div>
+                    <div class="form-row">
+                        Recommended price: <input class="number" type="number" id="Output" min="0" max="1000000"
+                            value="0.00" readonly>
+                    </div>
                 </form>
-                <p>Recommended price <input class="number" type="number" id="Output" readonly></p>
             </div>
         </div>
         <div class="flex-footer">
