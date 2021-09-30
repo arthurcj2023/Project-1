@@ -39,3 +39,15 @@
     font-size: 20px;
     font-family: 'Teko', sans-serif;
 }
+
+.modification-link-list {
+
+}
+
+.modification-link {
+    font-style: italic;
+    text-decoration: none;
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+    color: var(--TextColor);
+}
