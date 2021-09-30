@@ -23,22 +23,21 @@
             <a class="flex-header-button" href="pricing.html">Pricing</a>
             <a class="flex-header-button" href="maintainence.html">Maintainence</a>
             <a class="flex-header-button" href="modification.html">Modification</a>
-
         </div>
         <div class="flex-body">
             <h1 class="page-header">Pricing guide</h1>
-            <p class="paragraph"> this pricing calculator should be able to give you an accurate value of the vehicle
-                you are looking to purchase. Taking factors from the inspection piortion of the site, rate the condition
+            <p class="main-paragraph">This pricing calculator should be able to give you an accurate value of the vehicle
+                you are looking to purchase. Taking factors from the inspection portion of the site, rate the condition
                 of each major category of the vehicle on a scale from 0-10. 0 is equivalent to scrap metal, and 10 is
                 equivalent to fresh off of the factory line. Once you plug in those values press the Calculate Price
-                button to get what we reccomend you try and purchase the vehicle for. Lower scores in any category
-                greatly impact our reccomended price, as the worse a car is when you buy it, the more maintainence there
+                button to get what we recommend you try and purchase the vehicle for. Lower scores in any category
+                greatly impact our recommended price, as the worse a car is when you buy it, the more maintainence there
                 is bound to be in the future.</p>
             <div class="price-calculator-box">
                 <form name="price-calculator">
                     <p>Asking price
-                    <div class="number-container"><input class="number" type="number" min="0" max="1000000" value="0"
-                            name="AskingPrice"></div>
+                    <input class="number" type="number" min="0" max="1000000" value="0"
+                            name="AskingPrice">
                     </p>
                     <p>External condition <input class="number" type="number" min="0" max="10" value="0"
                             name="ExternalCondition"></p>
@@ -48,7 +47,7 @@
                             name="MechanicalCondition"></p>
                     <input type="button" value="Calculate Price" onClick="calculatePrice(this.form, this.output)">
                 </form>
-                <input type="number" id="Output" readonly>
+                <p>Recommended price <input class="number" type="number" id="Output" readonly></p>
             </div>
         </div>
         <div class="flex-footer">

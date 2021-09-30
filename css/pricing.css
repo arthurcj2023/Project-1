@@ -27,20 +27,21 @@ form {
     background-color: var(--BoxColor);
     margin-left: 20%;
     margin-right: 20%;
+    margin-bottom: 20px;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
     border: 2px solid var(--LineColor);
-    flex: 1 1 1;
 }
 
-.flex-body {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: calc(100vh - 154px);
-    background: radial-gradient(#1F1F1F, #000000);
-    color: var(--TextColor);
+.main-paragraph {
+    font-family: 'Teko', sans-serif;
+    border: 2px solid var(--LineColor);
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .number {
@@ -49,5 +50,5 @@ form {
     color: var(--TextColor);
     border: none;
     background-color: var(--BoxColor);
-    border: 2px soild var(--LineColor);
+    background-color: var(--BoxColor);
 }

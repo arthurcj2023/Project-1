@@ -1,3 +1,77 @@
-.checklist {
+:root {
+    --LineColor: #B50717;
+    --BoxColor: #141414;
+    --TextColor: #BFBFBF;
+}
+
+.main-paragraph {
+    font-family: 'Teko', sans-serif;
+    border: 2px solid var(--LineColor);
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.sub-header {
+    display: flex;
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 40px;
+    margin-left: 20%;
+    margin-right: 20%;
+    align-self: center;
+}
+
+.category-description {
+    font-size: 20px;
+    font-family: 'Teko', sans-serif;
+    border: 2px solid var(--LineColor);
+    border-radius: 10px;
+    padding: 10px;
     margin-left: 5%;
+    margin-right: 5%;
+}
+
+.checklist {
+    font-size: 20px;
+    font-family: 'Teko', sans-serif;
+    border: 2px solid var(--LineColor);
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+}
+
+.checklist-form {
+    font-family: 'Teko', sans-serif;
+    font-size: 30px;
+}
+
+.category-check {
+    margin-left: 5%;
+    margin-bottom: 20px;
+}
+
+.link-list {
+    font-size: 20px;
+    font-family: 'Teko', sans-serif;
+    border: 2px solid var(--LineColor);
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+}
+
+.link-list-element {
+    text-decoration: none;
+    font-style: italic;
+    color: var(--TextColor);
+}
+
+.list {
+    margin-left: 5%;
+    margin-right: 5%;
 }
