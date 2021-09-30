@@ -1,0 +1,41 @@
+:root {
+    --LineColor: #B50717;
+    --BoxColor: #141414;
+    --TextColor: #BFBFBF;
+}
+
+.main-paragraph {
+    display: flex;
+    font-family: 'Teko', sans-serif;
+    border: 2px solid var(--LineColor);
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.sub-header {
+    display: flex;
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 40px;
+    margin-left: 20%;
+    margin-right: 20%;
+    align-self: center;
+}
+
+.modification-box {
+    display:flex;
+    flex-direction: column;
+    border: 2px solid var(--LineColor);
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 20px;
+}
+
+.description-paragraph {
+    font-size: 20px;
+    font-family: 'Teko', sans-serif;
+}
