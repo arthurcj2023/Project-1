@@ -3,6 +3,7 @@
     margin-right: 10%;
     align-items: center; 
     text-align: center;
+    display: inline-block;
 }
 
 .maintainence-image{
