@@ -1,11 +1,37 @@
+:root {
+    --LineColor: #B50717;
+    --BoxColor: #141414;
+    --TextColor: #BFBFBF;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-body {
+    height: 100%;
+}
+
 .price-calculator-box {
+    display: flex;
+    font-size: 50px;
     display:flex;
     flex-direction: column;
-    background-color: orange;
-    margin-left: 42%;
-    margin-right: 42%;
+    background-color: var(--BoxColor);
+    margin-left: 20%;
+    margin-right: 20%;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
+    border: 2px solid var(--LineColor);
+    flex: 1 1 1;
 }
 
 .flex-body {
@@ -15,4 +41,13 @@
     height: calc(100vh - 154px);
     background: radial-gradient(#1F1F1F, #000000);
     color: var(--TextColor);
+}
+
+.number {
+    display: flex;
+    font-size: 50px;
+    color: var(--TextColor);
+    border: none;
+    background-color: var(--BoxColor);
+    border: 2px soild var(--LineColor);
 }

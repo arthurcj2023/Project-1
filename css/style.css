@@ -1,22 +1,23 @@
-/* Variables */
 :root {
     --LineColor: #B50717;
     --BoxColor: #141414;
     --TextColor: #BFBFBF;
 }
-/* Body flex prep */
+
 body {
+    background-color: #000000;
     padding: 0;
     margin: 0;
 }
-/* Flex master */
+
 .flex-master {
     display: flex;
     flex-direction: column;
 }
-/* Flex header */
+
 .flex-header-button {
     display: flex;
+    font-size: 20px;
     margin: 10px;
     text-decoration: none;
     align-items: center;
@@ -25,8 +26,9 @@ body {
     background-color: var(--BoxColor);
     border: 1px solid var(--LineColor);
     padding: 5px;
-    flex: 1 1 1;
+    margin: 5px;
 }
+
 .flex-header {
     display: flex;
     width: 100%;
@@ -37,9 +39,9 @@ body {
     justify-content: center;
     background-color: var(--BoxColor);
     border-bottom: 2px solid var(--LineColor);
-    flex: 1 1 auto;
+    font-family: 'Stick No Bills', sans-serif;
 }
-/* Flex body COMPLETE*/
+
 .flex-body {
     display: flex;
     flex-direction: column;
@@ -48,7 +50,7 @@ body {
     background: radial-gradient(#1F1F1F, #000000);
     color: var(--TextColor);
 }
-/* Flex footer COMPLETE*/
+
 .flex-footer {
     display: flex;
     width: 100%;
@@ -58,16 +60,18 @@ body {
     border-top: 2px solid var(--LineColor);
     justify-content: center;
     align-items: center;
+    font-family: 'Teko', sans-serif;
 }
 
-.checklist {
-    margin-left: 5%;
-}
+
+
 /* Id classes */
 .page-header {
     font-family: 'Stick No Bills', sans-serif;
     padding-left: 5%; 
     padding-right: 5%;
+    font-size: 50px;
+    align-self: center;
 }
 .paragraph {
     font-family: 'Teko', sans-serif;
@@ -75,8 +79,4 @@ body {
     padding-right: 5%;
     font-size: 20px;
     overflow-y: auto;
-}
-.list {
-    padding-left: 10%;
-    padding-right: 10%;
 }
