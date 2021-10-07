@@ -88,7 +88,7 @@ form {
     border-radius: 10px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 640px) {
     .price-calculator-box {
         margin-left: 5%;
         margin-right: 5%;
@@ -97,5 +97,6 @@ form {
     .main-paragraph {
         margin-left: 5%;
         margin-right: 5%;
+        font-size: 25px;
     }
 }

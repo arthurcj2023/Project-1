@@ -74,3 +74,24 @@
   margin-left: 10%;
   margin-right: 10%;
 }
+
+@media only screen and (max-width: 640px)
+{
+    .hook-text {
+        font-size: 30px;
+    }
+
+    .sub-header {
+        font-size: 40px;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .advantages-list {
+        font-size: 25px;
+    }
+
+    .list-element {
+        font-size: 25px;
+    }
+}

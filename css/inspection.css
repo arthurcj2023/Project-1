@@ -80,3 +80,22 @@
     display: flex;
     flex-direction: row;
 }
+
+@media only screen and (max-width: 640px)
+{
+    .main-paragraph {
+        font-size: 25px;
+    }
+
+    .checklist {
+        font-size: 25px;
+    }
+
+    .checklist-form {
+        font-size: 35px;
+    }
+
+    .link-list {
+        font-size: 25px;
+    }
+}
